@@ -1,0 +1,77 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /*Funções para impedir arrastar imagens e textos*/
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+header {
+    display: flex;
+    background-color: rgb(100, 129, 172); 
+    width: 100%;
+    height: auto;
+    
+    padding: 10px;
+    align-items: center;
+}
+
+
+.Titulo {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.Titulo img {
+    width: 100px;
+}
+
+
+.Menu ul {
+    display: flex;
+    position: relative;
+    left: 100px;
+}
+.Menu li {
+    margin: 15px;
+}
+.Menu a {
+    color: white;
+}
+.Menu a:hover {
+    color: rgb(47, 187, 243);
+}
+
+
+.ToCart {
+    position: relative;
+    left: 115px;
+    top: 3px;
+}
+#CartImg {
+    width: 15%;
+    transition: all.3s ease;
+}
+#CartImg:hover {
+    transform: translateY(-5px);
+}
+
+.API {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#Btn_CEP {
+    width: 80px;
+    height: 25px;
+
+    position: relative;
+    top: 3px;
+}
