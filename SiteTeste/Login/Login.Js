@@ -19,7 +19,7 @@ const BtnUserExist = document.getElementById("BtnUserExist").addEventListener('c
 
     if(eUser === usuario.Nome && ePass === usuario.Num) {
         sessionStorage.setItem('LogginID', true);
-        window.location.href = 'http://127.0.0.1:5500/Home/Home.html';
+        window.location.href = "../Home/Home.html";
     }
     else {
         console.log("NO");   

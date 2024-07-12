@@ -4,5 +4,5 @@ if(loggedIn) {
     console.log("FOI");
 }
 else {
-    window.location.href = 'http://127.0.0.1:5500/Login/Login.html';
+    window.location.href = '../Home/Home.html';
 }
